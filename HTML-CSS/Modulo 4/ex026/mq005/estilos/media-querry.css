@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#menu {
+        display: none;
+    }
+
+    menu {
+        display: flex;
+    }
+
+    menu ul {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    menu a {
+        border: none;
+    }
+
+    main {
+        width: 768px;
+    }
+}
