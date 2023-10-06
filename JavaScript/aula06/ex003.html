@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: aqua;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Estou livre da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um numero:')) // "Window.prompt retorna os valores em string, para transformálos em numeros podemos usar Number.parseInt(n)"
+        var n2 = Number(window.prompt('Digite outro numero:')) //Também podemos usar Number.parseFloat(n), ou apenas Number(n) e deixar o js decidir qual o tipo 
+        var soma = n1 + n2
+        window.alert('A soma dos dois numeros é:' + soma)
+        //Para transformar em string podemos usar String(n) ou n.toString
+    </script>
+</body>
+</html>
